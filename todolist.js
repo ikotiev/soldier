@@ -24,7 +24,7 @@ const todoList = {
     },
   
     add: function (newCase) {
-        this.items.unshift ({text: newCase, complete: false})
+        this.items.unshift ({text: newCase, completed: false})
         console.log(this.printAll())
     },
   
